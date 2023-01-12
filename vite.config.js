@@ -5,4 +5,7 @@ export default {
     plugins: [
         Unocss({ /* options */ }),
     ],
+    build: {
+        outDir: 'docs'
+    }
 }
