@@ -21,3 +21,9 @@ body {
 .image {
   box-shadow: -20px 30px 400px -12px rgba(4, 180, 255, 0.991);
 }
+
+@media only screen and (max-width: 768px) {
+  .image {
+    box-shadow: 0 10px 50px -6 rgba(4, 180, 255, 0.991);
+  }
+}
